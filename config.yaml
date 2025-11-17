@@ -1,0 +1,22 @@
+site_name: "Frontier Intel"
+niche: "supply-chain-ai"
+keywords:
+  - "supply chain robotics"
+  - "warehouse automation"
+  - "route optimization"
+  - "demand forecasting AI"
+sources:
+  rss:
+    - "https://news.google.com/rss/search?q=warehouse+robotics"
+    - "https://news.google.com/rss/search?q=AI+demand+forecasting"
+  web:
+    - "https://www.reddit.com/r/supplychain/"
+post_schedule: "daily"
+min_words: 700
+
+footer:
+  enabled: true
+  text: |
+    ---
+    If you find these briefs useful, save this file and share it with a colleague.
+    In future versions, this is where links for subscriptions, premium reports, or tools will live.
