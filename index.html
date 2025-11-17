@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quantro News – AI-Powered Business & Tech Briefings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #050816;
+      color: #f5f5f5;
+    }
+    header {
+      padding: 32px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .logo {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      font-size: 14px;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+    h1 {
+      margin-top: 18px;
+      font-size: 32px;
+      line-height: 1.2;
+    }
+    p.subtitle {
+      margin-top: 12px;
+      max-width: 640px;
+      font-size: 16px;
+      opacity: 0.86;
+    }
+    .pill {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.12);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      opacity: 0.8;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+    }
+    .section-title {
+      margin-top: 32px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      opacity: 0.75;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+    li {
+      margin-bottom: 6px;
+      opacity: 0.9;
+    }
+    a {
+      color: #7dd3fc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 16px 20px 26px;
+      margin-top: 32px;
+      font-size: 12px;
+      opacity: 0.7;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Quantro News</div>
+    <h1>AI-powered briefings on business, tech, and emerging tools.</h1>
+    <p class="subtitle">
+      Quantro automatically scans the noise, finds the signals, and generates concise daily briefs
+      you can actually read in a few minutes.
+    </p>
+    <div class="pill">Early build · internal alpha</div>
+  </header>
+
+  <main>
+    <div class="section-title">Latest output</div>
+    <ul>
+      <li>View generated posts in the <a href="posts/">posts directory</a> (raw markdown for now).</li>
+    </ul>
+
+    <div class="section-title">What’s coming</div>
+    <ul>
+      <li>Automated daily briefing pipeline with AI agents.</li>
+      <li>AI tools & agents hub at <strong>quantro.tools</strong>.</li>
+      <li>Newsletter and weekly premium “Quantro Report”.</li>
+    </ul>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Quantro. Built with AI-assisted automation.
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
